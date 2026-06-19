@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday Adler ❤️</title>
+
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#030b17,#081a34,#0d2b52);
+    color:white;
+    overflow-x:hidden;
+    min-height:100vh;
+}
+
+/* Floating stars */
+.stars{
+    position:fixed;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    pointer-events:none;
+}
+
+.star{
+    position:absolute;
+    width:3px;
+    height:3px;
+    background:#8fdfff;
+    border-radius:50%;
+    box-shadow:0 0 10px #8fdfff;
+    animation:twinkle 3s infinite alternate;
+}
+
+@keyframes twinkle{
+    from{opacity:.3;}
+    to{opacity:1;}
+}
+
+/* Balloons */
+.balloon{
+    position:fixed;
+    bottom:-200px;
+    width:70px;
+    height:90px;
+    border-radius:50%;
+    animation:floatUp linear infinite;
+    opacity:.8;
+}
+
+.balloon::before{
+    content:'';
+    position:absolute;
+    width:2px;
+    height:100px;
+    background:white;
+    top:85px;
+    left:50%;
+}
+
+@keyframes floatUp{
+    from{
+        transform:translateY(0);
+    }
+    to{
+        transform:translateY(-130vh);
+    }
+}
+
+/* Main card */
+.container{
+    position:relative;
+    z-index:10;
+    width:90%;
+    max-width:900px;
+    margin:40px auto;
+    padding:30px;
+}
+
+.card{
+    background:rgba(255,255,255,0.08);
+    backdrop-filter:blur(15px);
+    border:1px solid rgba(143,223,255,0.3);
+    border-radius:25px;
+    padding:30px;
+    box-shadow:0 0 35px rgba(143,223,255,0.2);
+    animation:fadeIn 2s ease;
+}
+
+@keyframes fadeIn{
+    from{
+        opacity:0;
+        transform:translateY(30px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+h1{
+    text-align:center;
+    color:#8fdfff;
+    margin-bottom:20px;
+    font-size:2.3rem;
+    text-shadow:0 0 20px #8fdfff;
+}
+
+.message{
+    font-size:1rem;
+    line-height:1.9;
+    white-space:pre-line;
+}
+
+.heart{
+    text-align:center;
+    font-size:3rem;
+    margin-top:25px;
+    animation:heartbeat 1.5s infinite;
+}
+
+@keyframes heartbeat{
+    0%,100%{
+        transform:scale(1);
+    }
+    50%{
+        transform:scale(1.15);
+    }
+}
+
+.music-btn{
+    display:block;
+    margin:20px auto;
+    padding:12px 24px;
+    border:none;
+    border-radius:30px;
+    background:#8fdfff;
+    color:#00152b;
+    font-weight:700;
+    cursor:pointer;
+    box-shadow:0 0 20px #8fdfff;
+}
+
+.footer{
+    text-align:center;
+    margin-top:20px;
+    color:#a9dfff;
+}
+
+@media(max-width:600px){
+    h1{
+        font-size:1.7rem;
+    }
+
+    .message{
+        font-size:.95rem;
+    }
+
+    .card{
+        padding:20px;
+    }
+}
+</style>
+</head>
+<body>
+
+<!-- Audio -->
+<!-- Replace YOUR_AUDIO_LINK.mp3 with the actual MP3 URL of "from-the-start.mp3" -->
+<audio id="bgMusic" autoplay loop>
+    <source src="from-the-start.mp3" type="audio/mpeg">
+</audio>
+
+<div class="stars" id="stars"></div>
+
+<!-- Balloons -->
+<div class="balloon" style="left:5%; background:#8fdfff; animation-duration:15s;"></div>
+<div class="balloon" style="left:20%; background:#66cfff; animation-duration:18s;"></div>
+<div class="balloon" style="left:40%; background:#99e6ff; animation-duration:20s;"></div>
+<div class="balloon" style="left:60%; background:#7ad7ff; animation-duration:17s;"></div>
+<div class="balloon" style="left:80%; background:#b5ecff; animation-duration:22s;"></div>
+
+<div class="container">
+    <div class="card">
+
+        <h1>🎂 Happy Birthday Adler ❤️</h1>
+
+        <button class="music-btn" onclick="toggleMusic()">
+            🎵 Play / Pause Music
+        </button>
+
+        <div class="message">
+Happy Birthday, my love, Adler. ❤️
+
+I’m so grateful to have the chance to watch my favorite person grow, achieve his dreams, and become an even more amazing man with every passing year. Being by your side through it all is one of the greatest blessings of my life.You are the most precious treasure in this world, and I feel like the luckiest girl alive because I get to call you mine. No matter how hard I try to put my feelings into words, they will never be enough. There will never be a sentence beautiful enough to describe how much you mean to me. But I will do my best to spend every day showing you this love, although loving you comes so naturally to me.
+
+I love everything about you. I love your smile, your laugh, your kindness, and the way you make every moment brighter just by being there. Hearing you laugh will always be my favorite sound in the world. Your company is my favorite place to be, and whenever I'm with you, my mind goes quiet and all I can think about is how adorable you are and how lucky I am to have you.
+
+You make me feel safe, loved, and understood in a way no one else ever could. Just being with you brings me a kind of happiness that I never knew existed.
+
+On your birthday, I wish you happiness, health, and every beautiful thing that life has to offer, because you deserve all of it and more. I hope I get to see you smiling, laughing, and chasing your dreams in the next years, inchallah.
+
+To me, winning in life means having you by my side forever — supporting you, loving you, growing with you, and watching you become the best version of yourself (and getting muscles 😌).
+
+Again, happy birthday to my big boy. You know what they say: you'll always be a baby in your mommy's eyes, so no matter how old you get, you'll always be my little cutie who sleeps peacefully between my arms.
+
+No matter what happens, I will always be cheering for you, believing in you, and loving you with all my heart.
+
+Happy Birthday, my baby. ❤️
+        </div>
+
+        <div class="heart">💙</div>
+
+        <div class="footer">
+            Made with endless love ✨
+        </div>
+
+    </div>
+</div>
+
+<script>
+// Stars
+const starsContainer = document.getElementById("stars");
+
+for(let i=0;i<100;i++){
+    let star = document.createElement("div");
+    star.classList.add("star");
+
+    star.style.left = Math.random()*100 + "%";
+    star.style.top = Math.random()*100 + "%";
+    star.style.animationDelay = Math.random()*3 + "s";
+
+    starsContainer.appendChild(star);
+}
+
+// Music button
+const music = document.getElementById("bgMusic");
+
+document.addEventListener("click", function () {
+    music.play().catch(err => {
+        console.log("Audio blocked:", err);
+    });
+});
+</script>
+
+</body>
+</html>
